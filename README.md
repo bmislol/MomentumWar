@@ -31,3 +31,9 @@ Most trackers fail when a user’s goal isn't daily (e.g., "Hit the gym 3x per w
 1. Clone the repo: `git clone https://github.com/bmislol/MomentumWar.git`
 2. **Server:** Navigate to `/server`, configure `application.properties`, and run `./mvnw spring-boot:run`
 3. **Client:** Navigate to `/client`, run `npm install`, then `npm run dev`
+
+### ⚙️ Backend Configuration
+1. Navigate to `server/src/main/resources/`.
+2. Copy `application.properties.example` to a new file named `application.properties`.
+3. Update the `spring.datasource` fields with your local PostgreSQL credentials.
+4. Ensure you have created the database manually: `CREATE DATABASE momentum_war;`

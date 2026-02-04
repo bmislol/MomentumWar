@@ -1,0 +1,7 @@
+# Example Configuration - Replace with your local settings
+spring.application.name=MomentumWar-Server
+spring.datasource.url=jdbc:postgresql://localhost:5432/YOUR_DB_NAME
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
+spring.sql.init.mode=always
+spring.jpa.hibernate.ddl-auto=validate

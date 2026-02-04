@@ -1,0 +1,19 @@
+# Node/React (Client)
+client/node_modules/
+client/dist/
+client/.env
+client/.eslintcache
+
+# Java/Maven (Server)
+server/target/
+server/*.class
+server/.mvn/
+server/mvnw
+server/mvnw.cmd
+
+# IDEs and OS
+.idea/
+.vscode/
+*.swp
+*.log
+.DS_Store
